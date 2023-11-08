@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+header{
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+.history{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: lighter;
+}
+
+.text{
+    font-size: 24px;
+}
+
+.history p,
+.text p{
+    margin-bottom: 16px;
+}
+
+header{
+    padding: 32px 0;
+    background-color: black;
+    color: goldenrod;
+}
+
+.icon{
+    height: 128px;
+    margin-left: 8px;
+}
+
+header nav li{
+    display: inline;
+    margin: 8px;
+    font-size: 16px;
+}
+
+header nav li a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.conteiner,
+.furst-img{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    color: goldenrod;
+}
+
+section .history{
+    font-size: 24px;
+}
+
+#about li a{
+    color: goldenrod;
+    text-decoration: none;
+    border-color: goldenrod;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.brands-list{
+    max-width: 220px;
+}
+
+.social-links{
+    max-width: 350px;
+}
+
+.brands-list,
+.social-links{
+    background-color: goldenrod;
+    height: 24px;
+}
+
+.brands-list li,
+.social-links li{
+    display: inline;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.brands-list img,
+.social-links img{
+    height: 24px;
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: goldenrod;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: gold;
+}
